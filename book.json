@@ -1,0 +1,120 @@
+{
+  "title": "PMP学习笔记",
+  "author": "waydeX",
+  "links": {
+      "sidebar": {
+          "Home": "http://mobileapi.gree.com:3000/GreeBI"
+      }
+  },
+  "plugins": [
+      "-sharing",
+      "sharing-plus",
+      "include-codeblock",
+      "copy-code-button",
+      "ace",
+      "quiz",
+      "emphasize",
+      "katex",
+      "mermaid-gb3",
+      "graph",
+      "include-csv",
+
+      "-lunr",
+      "-search",
+      "search-pro",
+      "bibtex-indexed-cite",
+      "-livereload",
+      "prism",
+      "-highlight",
+      "url-embed",
+
+      "page-footer-ex",
+      "toc",
+      "anchor-navigation-ex",
+      "expandable-chapters",  
+      "theme-comscore",
+      "hide-element",
+      "back-to-top-button",
+      "chapter-fold",
+      "splitter",
+      "pageview-count",
+      "alerts"
+
+  ],
+  "pluginsConfig": {
+      "theme-default": {
+          "showLevel": true
+      },
+      "sharing": {
+          "douban": true,
+          "facebook": true,
+          "google": false,
+          "hatenaBookmark": false,
+          "instapaper": false,
+          "line": false,
+          "linkedin": false,
+
+          "messenger": false,
+          "pocket": false,
+          "qq": true,
+          "qzone": true,
+          "stumbleupon": false,
+          "twitter": false,
+          "viber": false,
+          "vk": false,
+          "weibo": true,
+          "whatsapp": false,
+          "all": [
+              "facebook",
+              "google",
+              "twitter",
+              "weibo",
+              "qq",
+              "linkedin",
+              "qzone",
+              "douban"
+          ]
+      },
+      "include-codeblock": {
+          "template": "ace",
+          "unindent": true,
+          "edit": false
+      },
+      "quiz": {
+          "labels": {
+              "check": "提交答案",
+              "showExplanation": "显示解释",
+              "showCorrect": "显示正确答案",
+              "explanationHeader": "释义"
+          },
+          "text": {
+              "noChosen": "Choose at least one answer",
+              "incomplete": "Some correct answers are missing"
+          },
+          "buttons": {
+              "showCorrect": true,
+              "showExplanation": true
+          }
+      },
+      "bibtex-indexed-cite": {
+          "path": "/"
+      },
+
+      "page-footer-ex": {
+          "copyright": "By [WaydeXiong](http://mobileapi.gree.com:3000/GreeBI)，使用[知识共享 署名-相同方式共享 4.0协议]发布",
+          "markdown": true,
+          "update_label": "此页面修订于：",
+          "update_format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "hide-element": {
+        "elements": [".gitbook-link"]
+      },
+      "anchor-navigation-ex": {
+        "showLevel": false, 
+        "showGoTop": false, 
+        "tocLevel1Icon": "fa fa-hand-o-right",
+        "tocLevel2Icon": "fa fa-hand-o-right",
+        "tocLevel3Icon": "fa fa-hand-o-right"
+    }
+  }
+}
